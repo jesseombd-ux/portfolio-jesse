@@ -7,11 +7,9 @@ export const metadata = {
   description: "Portfólio profissional",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout(props) {
+  const { children } = props;
+
   return (
     <html lang="pt-BR">
       <body>
