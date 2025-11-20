@@ -1,7 +1,20 @@
-export default function RootLayout({ children }:{ children: React.ReactNode }) {
+import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
+export const metadata = {
+  title: "Portfólio – Jessé Oliveira",
+  description: "Portfólio profissional",
+};
+
+export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
