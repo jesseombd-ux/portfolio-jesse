@@ -9,31 +9,31 @@ const cases = [
     slug: "nps-predicao",
     title: "Algoritmo de Predição de NPS",
     subtitle: "+11pp NPS (1º ano)",
-    thumbnail: "/assets/images/cases/Algoritmo de predição de NPS.png"
+    thumbnail: "/assets/cases/nps-predicao.png"
   },
   {
     slug: "preco-predicao",
     title: "Algoritmo de Predição de Preços",
     subtitle: "-35pp reclamações por repasse",
-    thumbnail: "/assets/images/cases/Algoritmo de predição de Preços.png"
+    thumbnail: "/assets/cases/preco-predicao.png"
   },
   {
     slug: "causas-raiz",
     title: "BI de Causas Raiz",
     subtitle: "3 processos de melhoria contínua",
-    thumbnail: "/assets/images/cases/BI de Causas Raízes - Customer Success.png"
+    thumbnail: "/assets/cases/causas-raiz.png"
   },
   {
     slug: "pm-entregas",
     title: "BI de Entregas como PM",
     subtitle: "Stakeholder 6→9",
-    thumbnail: "/assets/images/cases/BI de entregas como PM.png"
+    thumbnail: "/assets/cases/pm-entregas.png"
   },
   {
     slug: "pnl-insights",
     title: "BI Insights PNL - NPS",
     subtitle: "NPS 35→61% (Jul–Set/2025)",
-    thumbnail: "/assets/images/cases/BI Insights de PNL - NPS e Menções públicas - Customer Experience.png"
+    thumbnail: "/assets/cases/pnl-insights.png"
   }
 ];
 
